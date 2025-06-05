@@ -1,0 +1,9 @@
+name: Deply
+
+on: push
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - run echo "todo ok"
