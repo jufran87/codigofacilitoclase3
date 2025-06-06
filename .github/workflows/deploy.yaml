@@ -8,4 +8,4 @@ jobs:
     steps:
       - run: echo "todo ok"
       - run: echo ${{ secrets.JWT_SECRET }}
-      - run: echo ${{ variables.NAME }}
+      - run: echo ${{ vars.NAME }}
