@@ -8,4 +8,4 @@ jobs:
     steps:
       - run: echo "todo ok"
       - run: echo ${{ secrets.JWT_SECRET }}
-      - run: echo ${{ enviroment.NAME }}
+      - run: echo ${{ env.NAME }}
