@@ -7,3 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "todo ok"
+      - run: echo ${{ secrets.JWT_SECRET }}
